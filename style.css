@@ -56,11 +56,14 @@ body{
   }
 
 .introducao{
-    max-width: 1200px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 150px;
     align-items: center;
+}
+.introducao img {
+  border-radius: 5px;
 }
 .introducao-info h1{
     font-size: 4.5rem;
